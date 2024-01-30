@@ -1,0 +1,141 @@
+{
+    "T. Ing. Biomedica": {
+        "nomeCorto": "t-bio",
+        "formulaLaurea" : "(110/27.17)*(M*CFU+T*3)/(CFU+3)",
+        "formulaLaureaCalcolo" : "(110/27.17)*( $M * $CFU+ $T *3)/( $CFU +3)",
+        "CFUCurriculari" : 177,
+        "Tmin" : 18,
+        "Tmax" : 30,
+        "Tstep" : 1,
+        "Cmin" : 0,
+        "Cmax" : 0,
+        "Cstep" : 0,
+        "MessaggioCommissione" : ""
+    },
+
+    "T. Ing. Elettronica": {
+        "nomeCorto": "t-ele",
+        "formulaLaurea" : "2+4*(M*CFU +T*3)/(CFU+3)",
+        "formulaLaureaCalcolo" : "2+4*( $M * $CFU + $T *3)/( $CFU +3)",
+        "CFUCurriculari" : 177,
+        "Tmin" : 18,
+        "Tmax" : 33,
+        "Tstep" : 1,
+        "Cmin" : 0,
+        "Cmax" : 0,
+        "Cstep" : 0,
+        "MessaggioCommissione" : ""
+    },
+
+    "T. Ing. Informatica": {
+        "nomeCorto": "t-inf",
+        "formulaLaurea" : "M*3+18+T+C",
+        "formulaLaureaCalcolo" : "$M *3 + 18 + $T + $C",
+        "CFUCurriculari" : 177,
+        "Tmin" : 0,
+        "Tmax" : 0,
+        "Tstep" : 0,
+        "Cmin" : 1,
+        "Cmax" : 7,
+        "Cstep" : 1,
+        "MessaggioCommissione" : "VOTO DI LAUREA FINALE: scegli voto commissione, prendi il corrispondente voto di laurea e somma il voto di tesi tra 1 e 3, quindi arrotonda"
+    },
+
+    "T. Ing. delle Telecomunicazioni": {
+        "nomeCorto": "t-tlc",
+        "formulaLaurea" : "M*11/3+C",
+        "formulaLaureaCalcolo" : "$M *11/3+ $C",
+        "CFUCurriculari" : 177,
+        "Tmin" : 0,
+        "Tmax" : 0,
+        "Tstep" : 0,
+        "Cmin" : 1,
+        "Cmax" : 11,
+        "Cstep" : 1,
+        "MessaggioCommissione" : ""
+    },
+
+    "M. Ing. Biomedica, Bionics Engineering": {
+        "nomeCorto": "m-bio",
+        "formulaLaurea" : "M*3.5+11+C",
+        "formulaLaureaCalcolo" : "$M *3.5+11+ $C",
+        "CFUCurriculari" : 105,
+        "Tmin" : 0,
+        "Tmax" : 0,
+        "Tstep" : 0,
+        "Cmin" : 0.5,
+        "Cmax" : 4,
+        "Cstep" : 0.5,
+        "MessaggioCommissione" : ""
+    },
+
+    "M. Ing. Elettronica": {
+        "nomeCorto": "m-ele",
+        "formulaLaurea" : "4*(M*CFU+T*18)/(CFU+18)",
+        "formulaLaureaCalcolo" : "4 * ( $M * $CFU + $T * 18 ) / ( $CFU + 18 )",
+        "CFUCurriculari" : 102,
+        "Tmin" : 18,
+        "Tmax" : 30,
+        "Tstep" : 1,
+        "Cmin" : 0,
+        "Cmax" : 0,
+        "Cstep" : 0,
+        "MessaggioCommissione" : "VOTO DI LAUREA FINALE: scegli voto di tesi, prendi il corrispondente voto di laurea ed  arrotonda"
+    },
+
+    "M. Computer Engineering": {
+        "nomeCorto": "m-ce",
+        "formulaLaurea" : "M*3+22+T+C",
+        "formulaLaureaCalcolo" : "$M *3+22+ $T + $C",
+        "CFUCurriculari" : 96,
+        "Tmin" : 0,
+        "Tmax" : 0,
+        "Tstep" : 0,
+        "Cmin" : 1,
+        "Cmax" : 3,
+        "Cstep" : 1,
+        "MessaggioCommissione" : ""
+    },
+
+    "M. Artificial Intelligence and Data Enginering": {
+        "nomeCorto": "m-art",
+        "formulaLaurea" : "M*3+22+T+C",
+        "formulaLaureaCalcolo" : "$M *3+22+ $T + $C",
+        "CFUCurriculari" : 96,
+        "Tmin" : 0,
+        "Tmax" : 0,
+        "Tstep" : 0,
+        "Cmin" : 1,
+        "Cmax" : 3,
+        "Cstep" : 1,
+        "MessaggioCommissione" : ""
+    },
+
+    "M. Ing. Robotica e della Automazione": {
+        "nomeCorto": "m-rob",
+        "formulaLaurea" : "M*3+18.5+T",
+        "formulaLaureaCalcolo" : "$M *3+18.5+ $T",
+        "CFUCurriculari" : 102,
+        "Tmin" : 1,
+        "Tmax" : 10,
+        "Tstep" : 1,
+        "Cmin" : 0,
+        "Cmax" : 0,
+        "Cstep" : 0,
+        "MessaggioCommissione" : ""
+    },
+
+    "M. Ing. delle Telecomunicazioni": {
+        "nomeCorto": "m-tlc",
+        "formulaLaurea" : "M*11/3+C",
+        "formulaLaureaCalcolo" : "$M * 11 / 3 + $C",
+        "CFUCurriculari" : 96,
+        "Tmin" : 0,
+        "Tmax" : 0,
+        "Tstep" : 0,
+        "Cmin" : 1,
+        "Cmax" : 11,
+        "Cstep" : 1,
+        "MessaggioCommissione" : "VOTO DI LAUREA FINALE: scegli voto commissione, prendi il corrispondente voto di laurea ed arrotonda"
+    }
+}

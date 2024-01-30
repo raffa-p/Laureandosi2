@@ -1,0 +1,202 @@
+* {
+    font-family: "Poppins", serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #dde5f4;
+}
+
+.label{
+    position: absolute;
+    top: 3rem;
+    left: 1rem;
+    color: #d4d4d4;
+    pointer-events: none;
+    transition: 150ms
+    cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.feedback{
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+p{
+    font-size: 1.5rem;
+}
+
+
+@media screen and (max-width: 650px) {
+    .contenuto {
+        display: table!important;
+        align-items: center;
+    }
+    .colonna-centrale {
+        width: 100% !important;
+        display: table;
+        padding: 0!important;
+    }
+    .colonna-centrale > * {
+        display: table-cell;
+        padding: 10px;
+    }
+    .colonna-destra {
+        max-width: 100% !important;
+        flex-direction: row!important;
+        padding-right: 3%;
+    }
+    .corsi{
+        width: 100%;
+    }
+    input[type="date"]{
+        width: 90% !important;
+    }
+    .titolo{
+        margin-block-end: 0;
+    }
+    .colonna-sinistra-CdL{
+        padding-top: 5%;
+    }
+    .input-matricole{
+        margin-left: 10px!important;
+    }
+    button{
+        width: 100%!important;
+    }
+    .feedback{
+        display: flex;
+        justify-content: flex-end;
+        padding-left: 2%;
+    }
+}
+
+
+
+
+
+
+.titolo{
+    margin-top: 1rem;
+    font-size: 3rem;
+    color: #10318a;
+    display: flex;
+    justify-content: center;
+}
+.contenuto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 80%;
+
+
+}
+.colonna-sinistra{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.colonna-centrale{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+.colonna-destra{
+    flex: 0 0 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+    padding: 2rem 2rem 1.5rem;
+    justify-content: flex-end;
+}
+.colonna-sinistra, .colonna-destra{
+    flex: 1;
+}
+
+button, input{
+    padding: 1em;
+    margin-bottom: 10px;
+    background: rgb(58, 129, 197);
+    color: white;
+    border: 3px solid;
+    border-radius: 10px;
+    font-weight: 600;
+    width: max-content;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+label{
+    font-size: 1.5rem;
+    color: rgb(58, 129, 197);
+    width: 100%;
+}
+.input-group{
+    padding-top: 2rem;
+    font-size: 1.25rem;
+    position: relative;
+    --primary: #2196f3;
+}
+.input-matricole{
+    all: unset;
+    color: #000000;
+    padding: 1rem;
+    border: 2px solid #10318a;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    word-break: break-all;
+}
+input[type="date"]{
+    background-color: rgb(58, 129, 197);
+    padding: 15px;
+    width: 80%;
+    transform: translate(0,10%);
+    color: #ffffff;
+    border: 1px solid #FFFFFF;
+    outline: none;
+    border-radius: 5px;
+}
+::-webkit-calendar-picker-indicator{
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.corsi{
+    padding: 3px
+}
+form{
+    display: inherit;
+    margin: inherit;
+}
+footer{
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    width: 100%;
+    text-align: right;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+a:-webkit-any-link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.tipo-accesso{
+    font-size: 1.1rem;
+    float: left;
+    padding-left: 6%;
+}
+
+
+

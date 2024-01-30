@@ -1,0 +1,80 @@
+{
+  "T. Ing. Biomedica": {
+    "esami-non-avg" : [],
+    "esami-non-CdL" : [
+                        "PROVA FINALE"
+                      ]
+  },
+
+  "T. Ing. Elettronica": {
+    "esami-non-avg" : [],
+    "esami-non-CdL" : [
+                        "PROVA FINALE"
+                      ]
+  },
+
+  "T. Ing. Informatica": {
+    "esami-non-avg" : [
+                        "PROVA DI LINGUA INGLESE (B1)",
+                        "PROVA DI LINGUA INGLESE",
+                        "PROVA DI LINGUA INGLESE B2",
+                        "TIROCINIO"
+                      ],
+    "esami-non-CdL" : [
+                        "PROVA FINALE",
+                        "LIBERA SCELTA PER RICONOSCIMENTI",
+                        "TEST DI VALUTAZIONE DI INGEGNERIA"
+                      ]
+  },
+
+  "T. Ing. delle Telecomunicazioni": {
+    "esami-non-avg" : [],
+    "esami-non-CdL" : [
+                        "PROVA FINALE"
+                      ]
+  },
+
+  "M. Ing. Biomedica, Bionics Engineering": {
+    "esami-non-avg" : [],
+    "esami-non-CdL" : [
+                        "PROVA FINALE"
+                      ]
+  },
+
+  "M. Ing. Elettronica": {
+    "esami-non-avg" : [],
+    "esami-non-CdL" : [
+                        "PROVA FINALE"
+                      ]
+  },
+
+  "M. Computer Engineering": {
+    "esami-non-avg" : [],
+    "esami-non-CdL" : [
+                        "PROVA FINALE"
+                      ]
+  },
+
+  "M. Artificial Intelligence and Data Enginering": {
+    "esami-non-avg" : [
+                        "TESI"
+                      ],
+    "esami-non-CdL" : [
+                        "PROVA FINALE"
+                      ]
+  },
+
+  "M. Ing. Robotica e della Automazione": {
+    "esami-non-avg" : [],
+    "esami-non-CdL" : [
+                        "PROVA FINALE"
+                      ]
+  },
+
+  "M. Ing. delle Telecomunicazioni": {
+    "esami-non-avg" : [],
+    "esami-non-CdL" : [
+                        "PROVA FINALE"
+                      ]
+  }
+}

@@ -1,0 +1,44 @@
+* {
+    font-family: "Poppins", serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: #dde5f4;
+}
+
+.my-login{
+    background: #f1f7fe;
+    padding: 2em;
+    margin-top: 0.5em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0 0 2em #e6e9f9;
+    width: 30%;
+    position: absolute;
+    top: 20%;
+}
+
+.my-login .logo {
+    width: 100%;
+    margin-bottom: -65%;
+    margin-top: -7rem;
+    max-height: 50%;
+}
+
+p{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    align-self: center;
+}
+.login {
+    margin-top: 15%;
+    padding: 1em;
+    background: #114f8c;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
