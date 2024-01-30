@@ -18,9 +18,10 @@ Library used:
 
 ### Content of this repository    
 In this repository there are   
-    a) Visual Paradigm's project file
-    b) directory "app"
-    c) laureandosi2.zip that contains all the WordPress configuration
+    a) Visual Paradigm's project file    
+    b) directory "app"     
+    c) laureandosi2.zip that contains all the WordPress configuration    
+
     
 ### Installation guide for Local WP   
     1. Import in local the zip file
