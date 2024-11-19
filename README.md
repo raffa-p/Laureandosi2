@@ -3,24 +3,23 @@
 ### Description
 This repository is the result of an University project (course: Software Engineering)    
 In the file Documentazione.pdf there's all the documentation, but only in Italian    
-It'made with:
-    - PHP 8.1.23
-    - nginx
-    - WordPress 6.4.2
-    - MySQL 8.0.16
+Made with:     
+    - PHP 8.1.23      
+    - nginx     
+    - WordPress 6.4.2     
+    - MySQL 8.0.16     
 
-Library used:
+Library used:     
     - FPDF
-    - FPDI 2.5.8
-    - PDF Merger Master
-    - PHPMailer
+    - FPDI 2.5.8     
+    - PDF Merger Master     
+    - PHPMailer     
 
 
-### Content of this repository    
-In this repository there are   
-    a) Visual Paradigm's project file    
-    b) directory "app"     
-    c) laureandosi2.zip that contains all the WordPress configuration    
+### Content of this repository      
+a) Visual Paradigm's project file    
+b) directory "app"     
+c) laureandosi2.zip that contains all the WordPress configuration    
 
     
 ### Installation guide for Local WP   
